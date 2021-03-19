@@ -7,5 +7,5 @@ app.use(express.json());
 app.use(Routes);
 
 app.listen(3333, () => {
-  console.log('Server started at port');
+  console.log('Server started at port 3333');
 })
